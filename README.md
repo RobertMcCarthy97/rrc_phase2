@@ -1,6 +1,6 @@
 # Real Robot Challenge Phase 2 attempt - ThriftySnipe
 
-Our report from phase 2 can be found[here](https://openreview.net/forum?id=S6ckmbx9SiV)
+Our report from phase 2 can be found [here](https://openreview.net/forum?id=S6ckmbx9SiV)
 
 The code is built off the [rrc_example_package](https://github.com/rr-learning/rrc_example_package/tree/master)
 provided by the challenge organisers. For more details on how to use this code with Singularity and ROS 2, see
@@ -16,7 +16,7 @@ Otherwise, rebuild it yourself using 'user_image.def' and following
 
 ## Train in Simulation
 
-**WARNING:** Our does not succesfully solve the Phase 2 rearrange dice task.
+**WARNING:** Our method does not succesfully solve the Phase 2 rearrange dice task.
 
 To train in simulation using domain randomization:
 
