@@ -1,10 +1,10 @@
 # Real Robot Challenge Phase 2 attempt - ThriftySnipe
 
-Our report from phase 2 can be found [here](https://openreview.net/forum?id=S6ckmbx9SiV)
+Our report from phase 2 can be found [here](https://openreview.net/forum?id=S6ckmbx9SiV).
 
 The code is built off the [rrc_example_package](https://github.com/rr-learning/rrc_example_package/tree/master)
 provided by the challenge organisers. For more details on how to use this code with Singularity and ROS 2, see
-the relevant [documentation](https://people.tuebingen.mpg.de/felixwidmaier/rrc2021/singularity.html)
+the relevant [documentation](https://people.tuebingen.mpg.de/felixwidmaier/rrc2021/singularity.html).
 
 ## Singularity Iimage
 
@@ -12,7 +12,7 @@ the relevant [documentation](https://people.tuebingen.mpg.de/felixwidmaier/rrc20
 Otherwise, rebuild it yourself using 'user_image.def' and following
 [these instructions](https://people.tuebingen.mpg.de/felixwidmaier/rrc2021/singularity.html#add-custom-dependencies-to-the-container).
 
-2. Name the image `user_image.sif`
+2. Name the image `user_image.sif`.
 
 ## Train in Simulation
 
@@ -28,7 +28,7 @@ This will start training with just 1 dice in the arena, and will add 4 dice ever
 
 To deploy the trained model:
 
-1. Find the trained model at `rrc_example_package/her/saved_models/dr_training/acmodel.pt`
+1. Find the trained model at `rrc_example_package/her/saved_models/dr_training/acmodel.pt`.
 
 2. Upload the model to the robot cluster following [these instructions](https://people.tuebingen.mpg.de/felixwidmaier/rrc2021/submission_system/submission_system.html#upload-the-file).
 The path to the model on the cluster should thus be `/userhome/acmodel.pt`. 
@@ -36,7 +36,7 @@ The path to the model on the cluster should thus be `/userhome/acmodel.pt`.
 3. Ensure your [configuration file](https://people.tuebingen.mpg.de/felixwidmaier/rrc2021/submission_system/submission_system.html#configuration-file-roboch-json)
 links to this repository.
 
-4. [Login](https://people.tuebingen.mpg.de/felixwidmaier/rrc2021/submission_system/submission_system.html#submitting-a-job) via ssh and call `submit`
+4. [Login](https://people.tuebingen.mpg.de/felixwidmaier/rrc2021/submission_system/submission_system.html#submitting-a-job) via ssh and call `submit`.
 
 This should run the `rrc_example_package/scripts/evaualte_stage2.py` script on the real robot.
 
